@@ -1,4 +1,4 @@
-# coing
+# drunkard
 
 ## Project setup
 ```
