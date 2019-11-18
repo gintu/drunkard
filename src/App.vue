@@ -180,7 +180,6 @@ export default {
           const [ingredients] = response.data.ingredients;
           this.data.push(ingredients);
           this.isContent = true;
-          console.log(this.data);
         })
         .catch((error) => {
           this.data = [];
@@ -203,7 +202,6 @@ export default {
       })
         .then((response) => {
           this.drink = {};
-          console.log(response);
           this.isGenerated = true;
           [this.drink] = [...response.data.drinks];
         })
